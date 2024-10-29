@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asep Restorant</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- file css -->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i> Asep Resto.</a>
+
+      <nav class="navbar">
+        <a class="active" href="#">beranda</a>
+        <a href="#hidangan">hidangan</a>
+        <a href="#tentang">tentang</a>
+        <a href="#menu">menu</a>
+        <a href="#">review</a>
+        <a href="#pesan">pesan</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+
+      <!-- header sampai di sini dulu -->
+
+      <!-- untuk pencarian -->
+
+      <form action="" id="search-form">
+        <input type="search" placeholder="Mau Makan Apa...?" name="" id="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+      </form>
+    </header>
+
+    <!-- bismillah bisa -->
+    <!-- untuk slider/swiper.... kebetulan kami menggunakan swiper.js -->
+    <main>
+      <section class="home" id="home">
+        <div class="swiper home-slider">
+          <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>Menu Spesial Kami</span>
+                <h3>Mie Geprek</h3>
+                <p>semoga tidak hanya bisa dilihat melainkan juga dinikmati terlebih jika anda sedang memasak makanan ini.</p>
+                <a href="#" class="btn">Pesan</a>
+              </div>
+              <div class="image">
+                <img src="img/mie geprek.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>Menu Spesial Kami</span>
+                <h3>Ayam Panggang Duduk</h3>
+                <p>semoga tidak hanya bisa dilihat melainkan juga dinikmati terlebih jika anda sedang memasak makanan ini.</p>
+                <a href="#" class="btn">Pesan</a>
+              </div>
+              <div class="image">
+                <img src="img/ayam panggang.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>Menu Spesial Kami</span>
+                <h3>Nasi Goreng</h3>
+                <p>semoga tidak hanya bisa dilihat melainkan juga dinikmati terlebih jika anda sedang memasak makanan ini.</p>
+                <a href="#" class="btn">Pesan</a>
+              </div>
+              <div class="image">
+                <img src="img/menu-nasi goreng.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- Alhamdulillah bisa! :) -->
+
+      <!-- sekarang bagian hidangan -->
+
+      <section class="hidangan" id="hidangan">
+        <h3 class="sub-heading">Hidangan Kami</h3>
+        <h1 class="heading">Menu Baru Terpopuler</h1>
+
+        <div class="box-container">
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/dish-rendang.png" alt="" />
+            <h3>Rendang Sumatera</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rp.20.000,00</span>
+            <a href="#" class="btn">Masukkan Keranjang</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/dish-soto.png" alt="" />
+            <h3>Soto Lamongan</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star-half-alt"></i>
+            </div>
+            <span>Rp.10.000,00</span>
+            <a href="#" class="btn">Masukkan Keranjang</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/dish-nasipadang.png" alt="" />
+            <h3>Nasi Padang</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <span>Rp.15.000,00</span>
+            <a href="#" class="btn">Masukkan Keranjang</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/dish-satemadura.png" alt="" />
+            <h3>Sate Madura</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <span>Rp.10.000,00</span>
+            <a href="#" class="btn">Masukkan Keranjang</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/dish-gadogado.png" alt="" />
+            <h3>Gado-Gado</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <span>Rp.10.000,00</span>
+            <a href="#" class="btn">Masukkan Keranjang</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/dish-rawon.png" alt="" />
+            <h3>Rawon</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <span>Rp.10.000,00</span>
+            <a href="#" class="btn">Masukkan Keranjang</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/pempek semarang.png" alt="" />
+            <h3>Pempek Semarang</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <span>Rp.5.000,00</span>
+            <a href="#" class="btn">Masukkan Keranjang</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/dish-2.png" alt="" />
+            <h3>Nuget Ayam</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <span>Rp.10.000,00</span>
+            <a href="#" class="btn">Masukkan Keranjang</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- tentang restoran yang akan jadi nyata... aminn! :)  -->
+
+      <section class="tentang" id="tentang">
+        <h3 class="sub-heading">Telah tersedia</h3>
+        <h1 class="heading">Menu Baru Hari ini</h1>
+
+        <div class="row">
+          <div class="image">
+            <img src="img/ondeonde.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Onde-Onde Girang</h3>
+            <p>
+              Onde-onde atau jian dui adalah sejenis kue jajanan pasar yang populer di Indonesia. Onde-onde dapat ditemukan di pasar tradisional maupun dijual di pedagang kaki lima. Onde-onde juga populer khususnya di daerah pecinan baik di
+              Indonesia maupun luar negeri.
+            </p>
+            <p>Mungkin website ini hanya angan-angan belaka saat ini. tetapi bukan tidak mungkin jika website(praktek UAS) ini akan digunakan suatu hari.</p>
+
+            <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>Gratis Ongkir</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-dollar-sign"></i>
+                <span>Pembayaran Mudah</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>Pelayanan 24 Jam</span>
+              </div>
+            </div>
+            <a href="#" class="btn">Selengkapnya</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- bagian menu -->
+
+      <section class="menu" id="menu">
+        <h3 class="sub-heading">Menu Kami</h3>
+        <h1 class="heading">Spesial Hari ini</h1>
+
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img src="img/menu-nasi goreng.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <article class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Nasi Goreng</h3>
+              <p>Makanan ini bisa anda beli jika restorannya ada</p>
+              <a href="#" class="btn">Masukkan Keranjang</a>
+              <span class="price">Rp.7.000,00</span>
+            </article>
+          </div>
+
+          <article class="box">
+            <div class="image">
+              <img src="img/menu-terambulan.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Terambulan</h3>
+              <p>Makanan ini bisa anda beli jika restorannya ada</p>
+              <a href="#" class="btn">Masukkan Keranjang</a>
+              <span class="price">Rp.5.000,00</span>
+            </div>
+          </article>
+
+          <article class="box">
+            <div class="image">
+              <img src="img/menu-tape.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Tape Bondowoso</h3>
+              <p>Makanan ini bisa anda beli jika restorannya ada</p>
+              <a href="#" class="btn">Masukkan Keranjang</a>
+              <span class="price">Rp.5.000,00</span>
+            </div>
+          </article>
+
+          <article class="box">
+            <div class="image">
+              <img src="img/menu-klepon.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Klepon</h3>
+              <p>Makanan ini bisa anda beli jika restorannya ada</p>
+              <a href="#" class="btn">Masukkan Keranjang</a>
+              <span class="price">Rp.5.000,00</span>
+            </div>
+          </article>
+
+          <article class="box">
+            <div class="image">
+              <img src="img/menu-putu mayang.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Putu Mayang</h3>
+              <p>Makanan ini bisa anda beli jika restorannya ada</p>
+              <a href="#" class="btn">Masukkan Keranjang</a>
+              <span class="price">Rp.5.000,00</span>
+            </div>
+          </article>
+
+          <article class="box">
+            <div class="image">
+              <img src="img/menu-STMJ.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>STMJ</h3>
+              <p>Minuman ini bisa anda beli jika restorannya ada</p>
+              <a href="#" class="btn">Masukkan Keranjang</a>
+              <span class="price">Rp.5.000,00</span>
+            </div>
+          </article>
+
+          <article class="box">
+            <div class="image">
+              <img src="img/menu-es cendol.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h3>Es Cendol</h3>
+              <p>Minuman ini bisa anda beli jika restorannya ada</p>
+              <a href="#" class="btn">Masukkan Keranjang</a>
+              <span class="price">Rp.3.000,00</span>
+            </div>
+          </article>
+
+          <article class="box">
+            <div class="image">
+              <img src="img/menu-bajigur.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h3>Bajigur</h3>
+              <p>Minuman ini bisa anda beli jika restorannya ada</p>
+              <a href="#" class="btn">Masukkan Keranjang</a>
+              <span class="price">Rp.5.000,00</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- form pemesanan! jika restorannya beneran ada -->
+
+      <aside class="pesan" id="pesan">
+        <h3 class="sub-heading">Pesan Sekarang</h3>
+        <h1 class="heading">Di Sini!</h1>
+
+        <form action="">
+          <div class="inputBox">
+            <div class="input">
+              <span>nama</span>
+              <input type="text" placeholder="masukkan nama anda!" />
+            </div>
+            <div class="input">
+              <span>no.telp</span>
+              <input type="number" placeholder="masukkan no.telp" />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>Makanan</span>
+              <input type="text" placeholder="mau pesan apa?" />
+            </div>
+            <div class="input">
+              <span>makanan tambahan</span>
+              <input type="test" placeholder="pesan apa lagi" />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>jumlah makanan</span>
+              <input type="number" placeholder="mau pesan berapa?" />
+            </div>
+            <div class="input">
+              <span>tanggal dan waktu</span>
+              <input type="datetime-local" />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>Alamat</span>
+              <textarea name="" placeholder="masukkan alamat" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+              <span>Pesan</span>
+              <textarea name="" placeholder="masukkan pesan" id="" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+
+          <input type="submit" value="pesan sekarang" class="btn" />
+        </form>
+      </aside>
+      <aside>
+        <section class="profile card">
+          <div class="My">
+            <h2>MY Biodata</h2>
+            <p>Mahasiswa TI</p>
+            <figure>
+              <img width="120px" src="img/myProfil.png" alt="Foto Profil" />
+            </figure>
+          </div>
+          <section>
+            <table>
+              <tr>
+                <th>Nama</th>
+                <td>Asep Rifa'i</td>
+              </tr>
+              <tr>
+                <th>TTL</th>
+                <td>Subang, 29 April 2801</td>
+              </tr>
+              <tr>
+                <th>Alamat</th>
+                <td>Kp. Mayang Rt 02 / Rw 01 Kec. Cisalak Subang Jawa Barat</td>
+              </tr>
+              <tr>
+                <th>Bahasa Daerah</th>
+                <td>Sunda</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td>asepkhabril20@gmail.com</td>
+              </tr>
+            </table>
+          </section>
+        </section>
+      </aside>
+    </main>
+
+    <!-- bagian bawah atau footer -->
+
+    <footer>
+      <div class="box-container">
+        <div class="box">
+          <h3>lokasi</h3>
+          <a href="#">Bandung</a>
+          <a href="#">Subang</a>
+          <a href="#">Sumedang</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">beranda</a>
+          <a href="#">hidangan</a>
+          <a href="#">tentang</a>
+          <a href="#">menu</a>
+          <a href="#">reivew</a>
+          <a href="#">pesan</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">+687710788258</a>
+          <a href="#">+68110101941</a>
+          <a href="#">asepkhabril20@gmail.com</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a href="#"><i class="fa-brands fa-twitter"></i> twitter</a>
+          <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        </div>
+      </div>
+
+      <div class="credit">&copy; 2022 <span>Asep Rifa'i.FST.UNIB</span></div>
+    </footer>
+
+    <!-- untuk slider/swiper.... kebetulan kami menggunakan swiper.js dan harus online-->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- file java script -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
